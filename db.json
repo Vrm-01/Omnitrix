@@ -1,0 +1,35 @@
+{
+    "aliens": [{
+            "id": "1",
+            "nome": "Chama",
+            "especie": "Pyronite",
+            "planeta": "Pyros",
+            "habilidades": "Pirocinese, Voo, Imunidade ao Fogo",
+            "imagem": "https://static.wikia.nocookie.net/ben10/images/0/05/Yj6j6j66.png/revision/latest/scale-to-width/360?cb=20141208003000&path-prefix=pt"
+        },
+        {
+            "id": "2",
+            "nome": "Quatro Braços",
+            "especie": "Tetramand",
+            "planeta": "Khoros",
+            "habilidades": "Super Força, Resistência, Saltos Gigantes",
+            "imagem": "quatro.png"
+        },
+        {
+            "id": "3",
+            "nome": "XLR8",
+            "especie": "Kineceleran",
+            "planeta": "Kinet",
+            "habilidades": "Super Velocidade, Reflexos Rápidos",
+            "imagem": "https://static.wikia.nocookie.net/ub10fanfiction/images/1/13/XLR8_%28EM%29.png/revision/latest?cb=20181002031904&path-prefix=pt-br"
+        },
+        {
+            "id": "4",
+            "nome": "Diamante",
+            "especie": "Petrosapien",
+            "planeta": "Petropia",
+            "habilidades": "Cristalocinese, Super Força, Regeneração",
+            "imagem": "diamante.png"
+        }
+    ]
+}
