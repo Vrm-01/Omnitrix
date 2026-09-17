@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnitrix - Banco de Dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="omnitrix-container">
+        <!-- Ícone do Omnitrix que troca de imagem -->
+        <img id="simbolo" src="omnitrix-desativado.png" class="simbolo-omnitrix" alt="Símbolo Omnitrix">
+
+        <div class="visor">
+            <h1>OMNITRIX</h1>
+            <p>Selecione o DNA desejado:</p>
+
+            <select id="alien-select">
+                <option value="">-- Gire o disco --</option>
+                <option value="1">Chama</option>
+                <option value="2">Quatro Braços</option>
+                <option value="3">XLR8</option>
+                <option value="4">Diamante</option>
+                <option value="999">Massa Cinzenta (Erro Forçado)</option>
+            </select>
+
+            <button id="btn-transformar">Transformar</button>
+        </div>
+
+        <div id="painel-resultado" class="painel">
+            <!-- Dados da API aparecem aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
